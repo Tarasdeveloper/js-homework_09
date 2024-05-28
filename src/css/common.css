@@ -16,3 +16,9 @@ img {
   display: block;
   max-width: 100%;
 }
+.color-btn {
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
