@@ -16,9 +16,47 @@ img {
   display: block;
   max-width: 100%;
 }
+button {
+  cursor: pointer;
+}
+
 .color-btn {
   text-transform: uppercase;
-  padding: 10px;
+  padding: 15px 30px;
   background-color: #fff;
-  cursor: pointer;
+  font-weight: 600;
+  border: 2px solid #bbb;
+}
+
+.flatpickr-input {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.timer-btn {
+  height: 30px;
+  font-size: 20px;
+}
+
+.timer {
+  margin: 20px 0;
+  display: flex;
+  gap: 15px;
+}
+
+.field {
+  display: inline-block;
+  text-align: center;
+}
+
+.value {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+.label {
+  text-transform: uppercase;
+  font-weight: 500;
 }
